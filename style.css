@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#experiment {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  left: 0px;
+  bottom: 0px;
+}
+
+#capture-icon {
+  position: fixed;
+  left: calc(50vw - 30px);
+  bottom: 0px;
+}
+#capture {
+  display: none;
+  
+}
+#monkey {
+  display: none;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  left: 0px;
+  bottom: 0px;
+  max-height: 100%;
+  max-width: 100%;
+}
